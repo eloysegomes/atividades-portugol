@@ -6,17 +6,17 @@ programa {
     faca{
       escreva(" menu de escolhas\n\n")
       escreva("1. Soma\n")
-      escreva("2. Subtração\n")
-      escreva("3. Multilicação\n")
-      escreva("4. Divisão\n")
-      escreva("5. Resto da Divisão\n")
+      escreva("2. SubtraÃ§Ã£o\n")
+      escreva("3. MultilicaÃ§Ã£o\n")
+      escreva("4. DivisÃ£o\n")
+      escreva("5. Resto da DivisÃ£o\n")
       escreva("6. sair\n")
-      escreva("Digite uma opção: ")
+      escreva("Digite uma opÃ§Ã£o: ")
       leia(opcao)
 
       escolha(opcao){
       caso 1:
-      escreva("você escolheu a Soma\n")
+      escreva("vocÃª escolheu a Soma\n")
 
       escreva("Digite o primeiro valor: ")
       leia(num1)
@@ -28,55 +28,55 @@ programa {
        pare 
 
       caso 2:
-      escreva("você escolheu a Subtração\n")
+      escreva("vocÃª escolheu a SubtraÃ§Ã£o\n")
 
       escreva("Digite o primeiro valor: ")
       leia(num1)
        escreva("Digite o segundo valor: ")
        leia(num2)
        resultado = num1 - num2
-       escreva(" A subtração dos valores: ", resultado,"\n\n")
+       escreva(" A subtraÃ§Ã£o dos valores: ", resultado,"\n\n")
 
        pare
 
       caso 3:
-      escreva("você escolheu a Multilplicação\n")
+      escreva("vocÃª escolheu a MultilplicaÃ§Ã£o\n")
 
       escreva("Digite o primeiro valor: ")
       leia(num1)
        escreva("Digite o segundo valor: ")
        leia(num2)
        resultado = num1 * num2
-       escreva(" Multiplicação dos valores: ", resultado,"\n\n")
+       escreva(" MultiplicaÃ§Ã£o dos valores: ", resultado,"\n\n")
        pare
 
       caso 4:
-      escreva("você escolheu a Divição\n")
+      escreva("vocÃª escolheu a DiviÃ§Ã£o\n")
 
       escreva("Digite o primeiro valor: ")
       leia(num1)
        escreva("Digite o segundo valor: ")
        leia(num2)
        resultado = num1 / num2
-       escreva(" Divisão dos valores: ", resultado,"\n\n")
+       escreva(" DivisÃ£o dos valores: ", resultado,"\n\n")
        pare
 
       caso 5:
-      escreva("você escolheu a Resto da Divisão\n")
+      escreva("vocÃª escolheu a Resto da DivisÃ£o\n")
 
       escreva("Digite o primeiro valor: ")
       leia(num1)
        escreva("Digite o segundo valor: ")
        leia(num2)
        resultado = num1 % num2
-       escreva(" Resto da Divisão dos valores: ", resultado,"\n\n")
+       escreva(" Resto da DivisÃ£o dos valores: ", resultado,"\n\n")
        pare
 
       caso 6:
       escreva("saindo...\n")
       pare
       caso contrario:
-      escreva("opção invalida")
+      escreva("opÃ§Ã£o invalida")
       }
 
     } enquanto(opcao != 3)
